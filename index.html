@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uragasmanhandiya | The Fragant soil of the south </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <a href="#home" class="logo">
+    <span class="logo-box">U</span>
+    <span>
+      URAGASMANHANDIYA
+      <small>The Fragant Soil of the South</small>
+    </span>
+  </a>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#geoportal">GeoPortal</a>
+    <a href="#places">Places</a>
+    <a href="#culture">Culture</a>
+    <div class="search">
+      <span>⌕</span>
+      <input type="text" placeholder="Search a place...",:aligns=center
+      >
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">GALLE DISTRICT • SOUTHERN PROVINCE • SRI LANKA</p>
+
+    <h1>
+      Discover<br>
+      <span>Uragasmanhandiya</span>
+    </h1>
+
+    <p class="hero-description">
+      Explore the identity, landscape, places and spatial information
+      of Uragasmanhandiya through a modern village GeoPortal.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#geoportal" class="button primary">Explore GeoPortal →</a>
+      <a href="#about" class="button secondary">Discover Village</a>
+    
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div>
+    <strong>6.3429° N</strong>
+    <span>Latitude</span>
+  </div>
+
+  <div>
+    <strong>80.0927° E</strong>
+    <span>Longitude</span>
+  </div>
+
+  <div>
+    <strong>80350</strong>
+    <span>Postal Code</span>
+  </div>
+
+  <div>
+    <strong>Galle</strong>
+    <span>District</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-heading">
+    <p class="eyebrow">ABOUT THE VILLAGE</p>
+    <h2>A Digital Window Into Uragasmanhandiya</h2>
+  </div>
+
+  <div class="about-grid">
+    <div>
+      <p>
+        <B>Uragasmanhandiya</B> is a small coastal town and Grama Niladhari Division in the Karandeniya Divisional
+         Secretariat of Galle District, Southern Province, Sri Lanka. Located roughly 80 km south of Colombo near the
+          Indian Ocean, the town comprises three main administrative sub-divisions: Uragasmanhandiya North, South, and East.
+
+          <P>According to the 2012 Census, the area had a combined population of 4,857, with a population density of 
+            about 700 persons per square kilometer. Demographically, it aligns with the broader Karandeniya region, featuring a 
+            predominantly Sinhalese and Buddhist community.</P>
+
+          <P>While Uragasmanhandiya remains largely agricultural and residential with limited industrial development, 
+            its location near neighboring hubs like Balapitiya, Bentota, and Ambalangoda provides economic advantages. 
+            Furthermore, its close proximity to popular southern eco-tourism attractions such as mangrove forests and sea 
+            turtle hatcheries in nearby Kosgoda and Ahungalla allows the town to contribute to and benefit from the region’s 
+            local tourism industry.</P>
+      </p>
+
+      
+    </div>
+
+    
+  </div>
+</section>
+
+<!-- GEOPORTAL -->
+<section class="geoportal" id="geoportal">
+
+  <div class="geo-sidebar">
+
+    <p class="eyebrow">SPATIAL EXPLORER</p>
+    <h2>Village GeoPortal</h2>
+
+    <p class="sidebar-text">
+      Explore the spatial character of Uragasmanhandiya.
+    </p>
+
+    
+
+    <h3>MAP LAYERS</h3>
+
+    <label class="layer">
+      <input type="checkbox" checked>
+      <span class="layer-dot red"></span>
+      Important Places
+    </label>
+
+    <label class="layer">
+      <input type="checkbox" checked>
+      <span class="layer-dot blue"></span>
+      Roads
+    </label>
+
+    <label class="layer">
+      <input type="checkbox" checked>
+      <span class="layer-dot green"></span>
+      Land Use
+    </label>
+
+    <label class="layer">
+      <input type="checkbox" checked>
+      <span class="layer-dot purple"></span>
+      Study Area
+    </label>
+
+    <h3>MAP STYLE</h3>
+
+    <select>
+      <option>OpenStreetMap</option>
+      <option>Satellite Map</option>
+      <option>Terrain Map</option>
+    </select>
+
+    <h3>SPATIAL DATA</h3>
+
+    <div class="data-buttons">
+      <a href="#" class="data-button">Places Data</a>
+      <a href="#" class="data-button">Road Data</a>
+      <a href="#" class="data-button">Land Use Data</a>
+      <a href="#" class="data-button">Village Information</a>
+    </div>
+
+    <div class="notice">
+      <strong>Research Note</strong>
+      
+    </div>
+
+  </div>
+
+  <div class="map-container">
+
+    <div class="map-label">
+      <strong>URAGASMANHANDIYA</strong>
+      <small>Interactive Spatial Map</small>
+    </div>
+
+    <!-- Map visual / embedded OpenStreetMap -->
+    <iframe
+      title="Uragasmanhandiya Map"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=80.07%2C6.32%2C80.12%2C6.37&layer=mapnik&marker=6.3429%2C80.0927">
+    </iframe>
+
+    <div class="map-legend">
+      <strong>Legend</strong>
+      <span><i class="red"></i> Places</span>
+      <span><i class="blue"></i> Roads</span>
+      <span><i class="green"></i> Land Use</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PLACES -->
+<section class="section" id="places">
+
+  <div class="section-heading">
+    <p class="eyebrow">PLACES</p>
+    <h2>Explore Important Locations</h2>
+  </div>
+
+  <div class="cards">
+
+    <article class="card">
+      <img src="IMG_3846.jpg"class="card-photo" alt="Kande Viharaya">
+      <div class="card-number">01</div>
+      <h3>Kande Viharaya</h3>
+      <p>
+        Kande Viharaya is a major Buddhist temple situated in Aluthgama, Sri Lanka, 
+        founded in 1734 on top of a hill. It is world-renowned for housing one of the 
+        tallest sitting Buddha statues in the world, standing at about 48 meters (160 feet) high.
+      </p>
+      
+    </article>
+
+    <article class="card">
+      <img src="Kosgoda.jpg"class="card-photo" alt="Kosgoda">
+      <div class="card-number">02</div>
+      <h3>Kosgoda Turtle Hatchery</h3>
+      <p>
+        Kosgoda turtle hatchery, started in 1981, is one of the oldest turtle 
+        conservation projects in Sri Lanka. Kodgoda turtle hatchery is quite 
+        popular for having all five turtle species seen on the country's beaches. 
+        Functioning as a hatchery, Kosgoda projects envisage much more to preserve 
+        the turtle life on the shore. They run various activities and volunteer 
+        programs for locals and international tourists to go through and have a knowledge of processes of turtle hatching.
+      </p>
+  
+    </article>
+
+    <article class="card">
+      <div class="card-number">03</div>
+      <img src="fall.jpg"class="card-photo" alt="fall">
+      <h3>Andahelena Ella</h3>
+      <p>
+        Andahelena Ella is a charming 12-meter waterfall nestled within 
+        the lush Beraliya Mukalana Forest Reserve near Elpitiya in Sri Lanka's 
+        Southern Province. Surrounded by a dense, biodiversity-rich jungle canopy, 
+        it is particularly famous for its unique natural rock bathing pool located right 
+        at the top of the cascade. Accessible via a short, scenic trek through the forest 
+        from Pituwala village, it offers a peaceful and refreshing escape into nature.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<!-- CULTURE -->
+<section class="culture" id="culture">
+
+  <div class="culture-content">
+    <p class="eyebrow">CULTURE & IDENTITY</p>
+
+    <h2>Tell the Story of the Village</h2>
+
+    <p>
+      The identity of Uragasmanhandiya is predominantly Sinhala Buddhist. Daily life, 
+      communal values, and local celebrations revolve around nearby ancient Buddhist temples 
+      (such as the Karandeniya Raja Maha Viharaya), village shrines, and seasonal Poya day observances.
+    </p>
+
+    <p>
+      The surrounding region played an important historical role in Sri Lanka’s cinnamon trade,
+       particularly during the Dutch and British colonial periods. The local community has long-standing 
+       ties to traditional spice cultivation and agriculture, shaping both the regional economy and local customs.
+    </p>
+
+    
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <div>
+    <strong>URAGASMANHANDIYA</strong>
+    <p>Web-Based GeoPortal for Village Identity</p>
+  </div>
+
+  <div>
+    PL1106 • COMMUNICATION TECHNOLOGIES
+  </div>
+
+</footer>
+
+</body>
+</html>
